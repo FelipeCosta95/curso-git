@@ -3,3 +3,13 @@ body{
 	background-color: #767676;
 
 }
+.texto-pseudofilosofico{
+	text-align: center;
+
+}
+.texto-maluco{
+	text-align: center;
+	letter-spacing: -5px;
+	text-shadow:  8px 12px red;
+	
+}
