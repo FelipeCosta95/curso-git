@@ -9,7 +9,47 @@ body{
 }
 .texto-maluco{
 	text-align: center;
-	letter-spacing: -5px;
+	letter-spacing: -3px;
 	text-shadow:  8px 12px red;
-	
+
+}
+.caixa{
+
+	color: #FF9933;
+}
+
+@keyframes strobe {
+0% {color: red}
+
+10%{color: #6f00ff}
+20%{color: #90ff00}
+30%{color: #ffe700}
+40%{color: #ff00a3}
+50%{color: #084d6e}
+60%{color: #fafad2}
+70%{color: #f08080}
+80%{color: #0f7f7f}
+90%{color: #FFFFFF}
+100%{color:#000000}
+
+}
+.rave{
+	animation-name: strobe;
+	animation-duration: 0.4s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes rotate{
+
+	100% {transform:rotate(360deg);}
+}
+
+.wee{
+	width: 450px;
+	height: 450px;
+	animation-name: rotate;
+	animation-duration: 0.3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	align-content: center;
 }
